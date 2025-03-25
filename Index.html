@@ -1,0 +1,126 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ Copywriters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to AJ Copywriters! ✨</h1>
+        <p>Words have power. They inspire, persuade, and connect.</p>
+    </header>
+
+    <section class="hero">
+        <img src="image1.jpg" alt="AJ Copywriters banner">
+    </section>
+
+    <section class="about">
+        <p>At AJ Copywriters, we’re here to help you find the <strong>perfect words</strong> to tell your story, grow your brand, and connect with your audience.</p>
+        <p>Let’s turn your ideas into impact!</p>
+    </section>
+
+    <section class="services">
+        <h2>📝 What we do:</h2>
+        <ul>
+            <li>Website Copy</li>
+            <li>Email Copy</li>
+            <li>Blog Writing</li>
+            <li>Brand Messaging</li>
+            <li>Sales Page Copy</li>
+            <li>And more!</li>
+        </ul>
+    </section>
+
+    <section class="gallery">
+        <h2>Our Work</h2>
+        <div class="gallery-images">
+            <img src="image2.jpg" alt="Copywriting concept">
+            <img src="image3.jpg" alt="Creative writing setup">
+        </div>
+    </section>
+
+    <section class="contact">
+        <p>Drop a 🖋️ in the comments if you’re ready to elevate your brand with the power of words.</p>
+        <button id="contactButton">Let’s Create Something Amazing</button>
+    </section>
+
+    <footer>
+        <p>#Copywriting #BrandStorytelling #ContentCreation #AJCopywriters</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #4A90E2;
+    color: white;
+    padding: 20px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.about, .services, .contact, .gallery {
+    padding: 20px;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services li {
+    background: #e6e6e6;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-images img {
+    width: 45%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+document.getElementById("contactButton").addEventListener("click", function() {
+    alert("Thank you for your interest! Let's connect and create amazing content.");
+});
